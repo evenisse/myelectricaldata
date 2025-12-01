@@ -95,7 +95,7 @@ pydantic==1.10.11
     #   fastapi-utils
 pymysql==1.0.3
     # via myelectricaldata_import (pyproject.toml)
-pypdf==3.15.4
+pypdf==6.4.0
     # via myelectricaldata_import (pyproject.toml)
 python-dateutil==2.8.1
     # via
@@ -152,7 +152,7 @@ waitress==2.1.2
     # via myelectricaldata_import (pyproject.toml)
 websocket-client==1.6.2
     # via myelectricaldata_import (pyproject.toml)
-werkzeug==2.2.2
+werkzeug==3.1.4
     # via flask
 yarl==1.9.2
     # via aiohttp
