@@ -4,7 +4,7 @@
 #
 #    pip-compile --output-file=requirements.txt pyproject.toml
 #
-aiohttp==3.8.5
+aiohttp==3.13.3
     # via myelectricaldata_import (pyproject.toml)
 aiosignal==1.3.1
     # via aiohttp
@@ -142,7 +142,7 @@ tzdata==2022.5
     # via pytz-deprecation-shim
 tzlocal==4.2
     # via apscheduler
-urllib3==1.26.12
+urllib3==2.6.3
     # via
     #   influxdb-client
     #   requests
@@ -152,7 +152,7 @@ waitress==2.1.2
     # via myelectricaldata_import (pyproject.toml)
 websocket-client==1.6.2
     # via myelectricaldata_import (pyproject.toml)
-werkzeug==2.2.2
+werkzeug==3.1.5
     # via flask
 yarl==1.9.2
     # via aiohttp
